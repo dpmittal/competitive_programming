@@ -1,6 +1,6 @@
 #https://www.codechef.com/problems/LONGSEQ
-a = int(raw_input())
-for i in xrange(a):
+test = int(raw_input())
+for i in xrange(test):
     j = list(raw_input())
     if (j.count('1')>1):
         if(j.count('0')==1):
